@@ -56,9 +56,8 @@ This project performs binary sentiment classification (positive or negative) on 
 
 Install required libraries:
 
-```bash
-pip install pandas numpy scikit-learn nltk matplotlib
-results:
+
+## Results:
   model: "Logistic Regression"
   metrics:
     accuracy: "85%"
@@ -75,7 +74,7 @@ results:
     - "TF-IDF helps in extracting meaningful features from tweets."
     - "Logistic Regression offers fast training and solid baseline results."
 
-references:
+#References:
   - title: "Sentiment140 Dataset on Kaggle"
     url: "https://www.kaggle.com/datasets/kazanova/sentiment140"
   - title: "NLTK Documentation"
