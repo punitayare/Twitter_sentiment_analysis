@@ -52,32 +52,31 @@ This project performs binary sentiment classification (positive or negative) on 
 
 ---
 
-## ⚙️ Installation
-
-Install required libraries:
 
 
-## Results:
-  model: "Logistic Regression"
-  metrics:
-    accuracy: "85%"
-    precision: "84%"
-    recall: "85%"
-    f1_score: "84.5%"
-  confusion_matrix:
-    true_negative: 4152
-    false_positive: 848
-    false_negative: 765
-    true_positive: 4235
-  observations:
-    - "Preprocessing, especially negation handling, significantly improves accuracy."
-    - "TF-IDF helps in extracting meaningful features from tweets."
-    - "Logistic Regression offers fast training and solid baseline results."
 
-#References:
-  - title: "Sentiment140 Dataset on Kaggle"
-    url: "https://www.kaggle.com/datasets/kazanova/sentiment140"
-  - title: "NLTK Documentation"
-    url: "https://www.nltk.org/"
-  - title: "Scikit-learn User Guide"
-    url: "https://scikit-learn.org/stable/user_guide.html"
+## 📈 **Results**
+
+**Model**: Logistic Regression
+
+**Metrics**:
+- **Accuracy**: 85%
+- **Precision**: 84%
+- **Recall**: 85%
+- **F1 Score**: 84.5%
+
+
+**Observations**:
+- Preprocessing, especially **negation handling**, significantly improves accuracy.
+- **TF-IDF** helps in extracting meaningful features from tweets.
+- **Logistic Regression** offers fast training and solid baseline results.
+
+---
+
+## 📚 **References**
+
+- [**Sentiment140 Dataset on Kaggle**](https://www.kaggle.com/datasets/kazanova/sentiment140)
+- [**NLTK Documentation**](https://www.nltk.org/)
+- [**Scikit-learn User Guide**](https://scikit-learn.org/stable/user_guide.html)
+
+
